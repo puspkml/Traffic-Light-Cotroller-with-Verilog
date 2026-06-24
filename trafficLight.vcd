@@ -1,0 +1,220 @@
+$date
+	Wed Jun 24 12:29:30 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_trafficLight $end
+$var wire 3 ! light2 [2:0] $end
+$var wire 3 " light1 [2:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ rst $end
+$var reg 1 % vech1 $end
+$var reg 1 & vech2 $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 % vech1 $end
+$var wire 1 & vech2 $end
+$var reg 4 ' count [3:0] $end
+$var reg 2 ( current [1:0] $end
+$var reg 3 ) light1 [2:0] $end
+$var reg 3 * light2 [2:0] $end
+$var reg 2 + next [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 +
+b100 *
+b100 )
+b0 (
+b0 '
+0&
+0%
+1$
+1#
+b100 "
+b100 !
+$end
+#5
+0#
+#10
+b1 '
+b1 !
+b1 *
+1#
+0$
+#15
+0#
+#20
+b10 "
+b10 )
+b1 !
+b1 *
+b0 '
+b1 (
+b1 +
+1#
+1&
+#25
+0#
+#30
+b10 +
+b1 '
+1#
+#35
+0#
+#40
+b100 !
+b100 *
+b1 "
+b1 )
+b0 '
+b10 (
+1#
+#45
+0#
+#50
+b1 '
+1#
+#55
+0#
+#60
+b10 '
+1#
+#65
+0#
+#70
+b1 "
+b1 )
+b0 '
+b11 (
+b11 +
+1#
+0&
+1%
+#75
+0#
+#80
+b0 +
+b1 '
+1#
+#85
+0#
+#90
+b1 !
+b1 *
+b100 "
+b100 )
+b0 '
+b0 (
+1#
+#95
+0#
+#100
+b1 '
+1#
+#105
+0#
+#110
+b10 '
+1#
+#115
+0#
+#120
+b11 '
+1#
+1&
+#125
+0#
+#130
+b100 '
+1#
+#135
+0#
+#140
+b1 +
+b101 '
+1#
+#145
+0#
+#150
+b10 "
+b10 )
+b1 !
+b1 *
+b0 '
+b1 (
+1#
+#155
+0#
+#160
+b10 +
+b1 '
+1#
+#165
+0#
+#170
+b100 !
+b100 *
+b1 "
+b1 )
+b0 '
+b10 (
+1#
+#175
+0#
+#180
+b1 '
+1#
+#185
+0#
+#190
+b10 '
+1#
+#195
+0#
+#200
+b11 '
+1#
+#205
+0#
+#210
+b100 '
+1#
+#215
+0#
+#220
+b101 '
+1#
+0&
+0%
+#225
+0#
+#230
+b110 '
+1#
+#235
+0#
+#240
+b111 '
+1#
+#245
+0#
+#250
+b0 +
+b0 '
+b0 (
+b100 "
+b100 )
+1#
+1$
+#255
+0#
+#260
+1#
